@@ -1,3 +1,15 @@
+## Versi Node.js
+Node.js: v18.17.1         
+
+## Versi React
+React: v18.3.1
+
+# Instal dependensi
+npm install
+
+# Menjalankan aplikasi menggunakan
+npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
