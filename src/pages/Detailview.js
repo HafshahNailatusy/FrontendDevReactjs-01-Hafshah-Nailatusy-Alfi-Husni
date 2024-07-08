@@ -64,21 +64,23 @@ const DetailView = () => {
         ))}
       </ul>
       <h3>Menus: </h3>
-      <div className='divfood'>
-        <h2>Foods: </h2>
-        <ul>
-          {restaurant.menus.foods.map((food, index) => (
-            <li key={index}>{food.name}</li>
-          ))}
-        </ul>
-      </div>
-      <div className='divdrink'>
-        <h2>Drinks: </h2>
-        <ul>
-          {restaurant.menus.drinks.map((drink, index) => (
-            <li key={index}>{drink.name}</li>
-          ))}
-        </ul>
+      <div className='menu-container'>
+        <div className='menu-section'>
+          <h2>Foods:</h2>
+          <ul>
+            {restaurant.menus.foods.map((food, index) => (
+              <li key={index}>{food.name}</li>
+            ))}
+          </ul>
+        </div>
+        <div className='menu-section'>
+          <h2>Drinks:</h2>
+          <ul>
+            {restaurant.menus.drinks.map((drink, index) => (
+              <li key={index}>{drink.name}</li>
+            ))}
+          </ul>
+        </div>
       </div>
       <h3>Reviews: </h3>
       <div className='reviews'>
