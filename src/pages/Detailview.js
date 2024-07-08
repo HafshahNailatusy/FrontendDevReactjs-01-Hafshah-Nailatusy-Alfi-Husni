@@ -63,10 +63,10 @@ const DetailView = () => {
           <li key={index}>{category.name}</li>
         ))}
       </ul>
-      <h3>Menus: </h3>
+      <h3 className='menuuu'>Menus: </h3>
       <div className='menu-container'>
         <div className='menu-section'>
-          <h2>Foods:</h2>
+          <h2 className='food'>Foods:</h2>
           <ul>
             {restaurant.menus.foods.map((food, index) => (
               <li key={index}>{food.name}</li>
@@ -74,7 +74,7 @@ const DetailView = () => {
           </ul>
         </div>
         <div className='menu-section'>
-          <h2>Drinks:</h2>
+          <h2 className='food'>Drinks:</h2>
           <ul>
             {restaurant.menus.drinks.map((drink, index) => (
               <li key={index}>{drink.name}</li>
@@ -82,7 +82,7 @@ const DetailView = () => {
           </ul>
         </div>
       </div>
-      <h3>Reviews: </h3>
+      <h3 className='ripiu'>Reviews: </h3>
       <div className='reviews'>
         <ul>
           {restaurant.customerReviews.map((review, index) => ( 
