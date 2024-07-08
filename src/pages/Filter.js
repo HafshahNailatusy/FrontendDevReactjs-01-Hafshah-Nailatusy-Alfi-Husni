@@ -77,7 +77,6 @@ const Filter = ({ onFilterChange, onClearFilters }) => {
       </label>
       <button className='clear' onClick={() => { handleClearFilters(); handleFilterClick(); }}>CLEAR ALL</button>
   
-      {/* Tambahkan Alert di sini */}
       {showAlert && (
         <Alert variant="danger" onClose={() => setShowAlert(false)} dismissible>
           No restaurants found with selected filters!
