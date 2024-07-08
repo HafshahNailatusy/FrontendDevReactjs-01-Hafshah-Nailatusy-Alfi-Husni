@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate instead of useHistory
-import './style.css'; // Ensure CSS file is imported
+import { useNavigate } from 'react-router-dom'; 
+import './style.css';
 import Alert from 'react-bootstrap/Alert';
 
 const Filter = ({ onFilterChange, onClearFilters }) => {
@@ -11,7 +11,7 @@ const Filter = ({ onFilterChange, onClearFilters }) => {
   const [showAlert, setShowAlert] = useState(false);
  
 
-  const navigate = useNavigate(); // useNavigate hook for navigation
+  const navigate = useNavigate();
 
   const handlePriceChange = (e) => {
     const price = e.target.value;
@@ -39,10 +39,8 @@ const Filter = ({ onFilterChange, onClearFilters }) => {
   };
 
   const handleFilterClick = () => {
-    // Simulate no data found scenario
     setDataFound(false);
-    setShowAlert(true); // Menampilkan alert
-    // Redirect to /notfound page if data is not found
+    setShowAlert(true);
     navigate('/notfound');
   };
   

@@ -191,11 +191,11 @@ ul li {
 }
 
 .star-filled {
-  color: #FFD700; /* Warna bintang terisi */
+  color: #FFD700; 
 }
 
 .star-empty {
-  color: #ccc; /* Warna bintang kosong */
+  color: #ccc; 
 }
 
 .rating-number {
@@ -215,7 +215,7 @@ ul li {
   }
 
   .filter {
-    flex-direction: column; /* Ubah menjadi kolom pada layar kecil */
+    flex-direction: column; 
     align-items: flex-start;
   }
 }
@@ -336,7 +336,7 @@ nav p {
 }
 
 .col-md-3 {
-  flex: 0 0 23%; /* Adjust the width of the cards */
+  flex: 0 0 23%; 
   margin-bottom: 20px;
   display: flex;
 }
@@ -351,16 +351,16 @@ nav p {
   text-align:left;
 }
 .card-title {
-  font-size: 1.4em; /* Ukuran font untuk judul */
-  font-weight: bold; /* Membuat teks judul tebal */
-  color: #333; /* Warna teks judul */
-  margin-bottom: 10px; /* Jarak bawah judul */
+  font-size: 1.4em; 
+  font-weight: bold; 
+  color: #333; 
+  margin-bottom: 10px; 
 }
 
 .card-text {
-  font-size: 1.1em; /* Ukuran font untuk teks biasa */
-  color: #666; /* Warna teks biasa */
-  margin-bottom: 10px; /* Jarak bawah teks */
+  font-size: 1.1em; 
+  color: #666; 
+  margin-bottom: 10px; 
 }
 
 
@@ -368,13 +368,13 @@ nav p {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.2em; /* Sesuaikan ukuran font untuk mengatur ukuran bintang */
-  color: #FFD700; /* Warna bintang */
-  margin: 10px 0; /* Margin untuk memberikan ruang di sekitar elemen */
+  font-size: 1.2em; 
+  color: #FFD700; 
+  margin: 10px 0; 
 }
 
 .bintang svg {
-  margin-right: 5px; /* Jarak antara bintang */
+  margin-right: 5px;
 }
 
 .kategoriw {
@@ -387,12 +387,12 @@ nav p {
 }
 
 .kategori-item {
-  margin-right: 10px; /* Jarak antara item kategori */
-  margin-bottom: 5px; /* Jarak bawah untuk tampilan responsif */
-  background-color: #f1f1f1; /* Warna latar belakang untuk item kategori */
-  padding: 5px 10px; /* Padding untuk item kategori */
-  border-radius: 4px; /* Sudut tumpul untuk item kategori */
-  color: #333; /* Warna teks item kategori */
+  margin-right: 10px; 
+  margin-bottom: 5px;
+  background-color: #f1f1f1; 
+  padding: 5px 10px;
+  border-radius: 4px; 
+  color: #333; 
 }
 
 .kategoriw {
@@ -405,12 +405,12 @@ nav p {
 }
 
 .kategori-item {
-  margin-right: 10px; /* Jarak antara item kategori */
-  margin-bottom: 5px; /* Jarak bawah untuk tampilan responsif */
-  background-color: #f1f1f1; /* Warna latar belakang untuk item kategori */
-  padding: 2px 8px; /* Padding untuk item kategori */
-  border-radius: 4px; /* Sudut tumpul untuk item kategori */
-  color: #333; /* Warna teks item kategori */
+  margin-right: 10px; 
+  margin-bottom: 5px; 
+  background-color: #f1f1f1;
+  padding: 2px 8px; 
+  border-radius: 4px; 
+  color: #333; 
   font-weight: 400;
 }
 

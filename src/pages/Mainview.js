@@ -22,7 +22,7 @@ const MainView = () => {
     try {
       const response = await axios.get(`https://restaurant-api.dicoding.dev/list`);
       setRestaurList(response.data.restaurants);
-      // Initialize filteredRestaurants with fetched data
+      
       setFilteredRestaurants(response.data.restaurants);
     } catch (error) {
       console.error("Error fetching data:", error);
@@ -73,7 +73,7 @@ const MainView = () => {
     setPriceFilter('');
     setCategoryFilter('');
     setOpenNow(false);
-    filterRestaurants(); // Apply filters after clearing
+    filterRestaurants();
   };
 
   const filterRestaurants = (details = restaurDetail) => {
